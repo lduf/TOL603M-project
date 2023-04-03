@@ -1,0 +1,14 @@
+latex
+$for(author)$
+    $if(author.name)$
+        \author{$author.name$}
+        $if(author.affiliation)$
+            \affiliation{\institution{$author.affiliation$}}
+        $endif$
+        $if(author.email)$
+            \email{$author.email$}
+        $endif$
+    $else$
+        $author$
+    $endif$
+$endfor$

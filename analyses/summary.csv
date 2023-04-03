@@ -1,0 +1,61 @@
+Dataset,Number of samples,Missing values,Deceptive distribution,Text lengths
+fake_news,200,0,"{True: 105, False: 95}","0      5017
+1        46
+2       215
+3      7980
+4      1885
+       ... 
+195     475
+196    2184
+197     948
+198    7825
+199     401
+Name: text, Length: 200, dtype: int64"
+product_reviews,200,0,{True: 200},"0      116
+1      399
+2      248
+3      212
+4      331
+      ... 
+195    158
+196    329
+197    229
+198    561
+199    172
+Name: text, Length: 200, dtype: int64"
+job_scams,200,0,"{True: 197, False: 3}","0       908
+1      1997
+2       355
+3      2617
+4      1446
+       ... 
+195     579
+196    2018
+197     431
+198     574
+199    6106
+Name: text, Length: 200, dtype: int64"
+political_statements,200,0,"{False: 120, True: 80}","0       77
+1      141
+2      103
+3       78
+4       54
+      ... 
+195    122
+196    165
+197     73
+198    100
+199     55
+Name: text, Length: 200, dtype: int64"
+phishing,200,0,{True: 200},"0      1069
+1       973
+2      1476
+3       977
+4      2417
+       ... 
+195    1702
+196    1611
+197    1043
+198    1557
+199     187
+Name: text, Length: 200, dtype: int64"
