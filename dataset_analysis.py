@@ -22,7 +22,6 @@ nltk.download('stopwords')
 def load_data(filepath):
     data = pd.read_json(filepath, lines=True)
     # keep only the first 100 samples
-    data = data[:200]
     return data
 
 def analyze_dataset(name, data):
